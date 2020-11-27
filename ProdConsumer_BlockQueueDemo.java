@@ -59,6 +59,7 @@ class MyResource{
 public class ProdConsumer_BlockQueueDemo {
     public static void main(String[] args) throws Exception{
         String version = "创建分支";
+        String info = "主干添加";
         MyResource myResource = new MyResource(new ArrayBlockingQueue<>(10));
 
         new Thread(()->{
