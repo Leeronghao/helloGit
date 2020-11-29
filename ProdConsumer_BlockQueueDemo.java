@@ -61,6 +61,7 @@ public class ProdConsumer_BlockQueueDemo {
         String version = "创建分支";
         String info = "主干添加";
         String infoDev = "分支添加";
+        String infoGitHub = "Github添加";
         MyResource myResource = new MyResource(new ArrayBlockingQueue<>(10));
 
         new Thread(()->{
